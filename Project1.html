@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>My Design Layout</title>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        background-color: burlywood;
+    }
+  #container{
+     width: 1200px;
+     margin: 0 auto;
+     background-color: white;
+
+}
+#top_bar{
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+#menu_bar{
+    background-color: tomato;
+}
+#menu_bar ul{
+    margin: 0;
+}
+#menu_bar ul li{
+    display: inline-block;
+}
+#menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+
+#menu_bar ul li a:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+#content{
+    width: 800px;
+    text-align: justify;
+    padding: 20px;
+    float: left;
+}
+
+#side_bar{
+    float: right;
+    background-color: lightblue;
+    width: 150px;
+    height: 400px;
+}
+#side_bar ul{
+       list-style: none;
+       padding: 5px 10px 5px 5px;
+}
+#side_bar ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#side_bar ul li a:hover{
+    background-color: tomato;
+    color: white;
+}
+
+#footer{
+    background-color: tomato;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+#footer h4{
+    margin: 0;
+}
+</style>
+<body>
+   <div id="container">
+
+       <div id="top_bar">
+           <h1>Ploranzai</h1>
+       </div>
+       <div id="menu_bar">
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+           </ul>
+       </div>
+       <div id="content">
+           <h2>Design Layout</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem nam accusamus fugit beatae! Ab modi, repellendus odit, ipsum ad aut ea molestiae itaque sapiente reiciendis error laboriosam, in asperiores.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem nam accusamus fugit beatae! Ab modi, repellendus odit, ipsum ad aut ea molestiae itaque sapiente reiciendis error laboriosam, in asperiores.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem nam accusamus fugit beatae! Ab modi, repellendus odit, ipsum ad aut ea molestiae itaque sapiente reiciendis error laboriosam, in asperiores.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem nam accusamus fugit beatae! Ab modi, repellendus odit, ipsum ad aut ea molestiae itaque sapiente reiciendis error laboriosam, in asperiores.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem nam accusamus fugit beatae! Ab modi, repellendus odit, ipsum ad aut ea molestiae itaque sapiente reiciendis error laboriosam, in asperiores.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem nam accusamus fugit beatae! Ab modi, repellendus odit, ipsum ad aut ea molestiae itaque sapiente reiciendis error laboriosam, in asperiores.</p>
+       </div>
+       <div id="side_bar">
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
+       </div>
+       <div id="footer">
+           <h4>All Rights Reserved.</h4>
+       </div>
+   </div> 
+</body>
+</html>
